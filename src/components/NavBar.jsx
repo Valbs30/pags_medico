@@ -17,7 +17,7 @@ export default function NavBar({children,children1}) {
                 </div>
             </nav>
             <div className='flex bg-[#AF75BF] items-center justify-center h-16' >
-                <ul className='lg:gap-48 flex textonav gap-10'>
+                <ul className='lg:gap-48 flex textonav gap-16 text-white'>
                     <Link href='/Pacientes'><li>Pacientes</li></Link>
                     <Link href='/Agenda'><li>Agenda</li></Link>
                     <Link href='/Agendamentos'><li>Agendamentos</li></Link>
