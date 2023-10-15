@@ -22,7 +22,7 @@ const UserMenu = () => {
 					aria-expanded="true"
 					aria-haspopup="true"
 				>
-					<UserIcon className='w-9 text-black icon mb-2'></UserIcon>
+					<UserIcon className='w-9 text-black icon'></UserIcon>
 				</button>
 			</div>
 
