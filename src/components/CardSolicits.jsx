@@ -16,6 +16,9 @@ export default function CardSolicits({ children, children1, children2,children3 
                         <input type="checkbox" name="aceitar" id="aceitar" />Aceitar
                         <input type="checkbox" name="recusar" id="recusar" />Recusar
                     </div>
+                    <div className="text-lg hidden">
+                        Motivo do cancelamento:<input className="w-full line-clamp-2 rounded mt-2"></input>
+                    </div>
                 </div>
             </div>
         </>

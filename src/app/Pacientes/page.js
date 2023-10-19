@@ -9,7 +9,7 @@ export default function Home() {
 				children={"Pacientes"}
 				children1={"Tenha acesso aos melhores produtos da Sanofi e suas próximas consultas."}
 			/>
-			<h1 className='flex justify-center pt-4 pb-2'>Produtos Sanofi</h1>
+			<h1 className='flex justify-center pt-4 pb-2 md:text-xl'>Produtos Sanofi</h1>
 			<div className='flex gap-4 mx-8 mb-16'>
 				<CardProd 
 					children={"Loratadina Sanofi"}
@@ -43,12 +43,22 @@ export default function Home() {
 						children1={"123.456.789/01"}
 						children2={"01/01/2000"}
 					/>
+					<DadosPaci
+						children={"João Faria"}
+						children1={"123.456.789/01"}
+						children2={"01/01/2000"}
+					/>
+					<DadosPaci
+						children={"João Faria"}
+						children1={"123.456.789/01"}
+						children2={"01/01/2000"}
+					/>
 				</div>
 			</div>
 			<div className='mx-20 px-8 py-4 bg-[#E7C7EE] rounded-2xl mb-16'>
 				<h1 className='text-center text-2xl pb-2 underline'>Ficha Médica</h1>
 			</div>
-			<div className='mx-40 px-12 py-4 bg-[#D3A7D9] rounded-2xl mb-16'>
+			<div className='mx-8 lg:mx-40 px-12 py-4 bg-[#D3A7D9] rounded-2xl mb-16'>
 				<h1 className='text-center text-2xl pb-4'>Suporte Exclusivo para Médicos</h1>
 				<p>Nosso serviço de suporte exclusivo para médicos está disponível 24 horas por dia, 
 					7 dias por semana. Para obter assistência imediata, entre em contato conosco pelo 
